@@ -1,18 +1,24 @@
 .spacewalker {
-    display: flex;
-    justify-content: center;
+    .mixin1();
     font-size: 3.4rem;
     padding-bottom: 1.5rem;
+
+    @media @phone {
+        width: 100%;
+        display: flex;
+        .mixin1();
+
+    }
 }
 
 nav {
-    display: flex;
+    .mixin2();
     font-size: 1.6rem;
-    justify-content: space-around;
     max-width: 375px;
     width: 100%;
     margin: 0 auto;
     padding-bottom: 1rem;
 
 }
+
 

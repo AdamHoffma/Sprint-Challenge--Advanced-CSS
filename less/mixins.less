@@ -1,1 +1,41 @@
-// Mixins Here
+.mixin1 {
+    display: flex;
+    justify-content: center;
+}
+
+.mixin2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.para(@background, @width) {
+    display: flex;
+    background-color: @background;
+    width: @width;
+    border-radius: 10px;
+    height: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//.custom-layout(@justify, @align){
+	//display: flex;
+	//justify-content: @justify;
+	//align-items: @align;
+
+// usage
+//.custom-layout(flex-end, center);
+
+
